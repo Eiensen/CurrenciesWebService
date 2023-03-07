@@ -7,11 +7,12 @@
 
 <hr/>
 <h3>Стек технологий:</h3>
-- .NET 6.0 ASP.NET Core Web Api MVC
-- MS SQL
-- Entity Framework Core
-- Razor Pages
-- JQuery
-- HTML
-- Bootstrap
-
+<ul>
+  <li>.NET 6.0 ASP.NET Core Web Api MVC</li>
+  <li>MS SQL</li>
+  <li>Entity Framework Core</li>
+  <li>Razor Pages</li>
+  <li>JQuery</li>
+  <li>HTML</li>
+  <li>Bootstrap</li>
+</ul>
