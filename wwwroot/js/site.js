@@ -14,3 +14,7 @@ $('.currency').on('click', function () {
             $('#nominal').text(currency.nominal)
         });
 });
+
+$('#modalClose').on('click', () => {
+    $('#currencyModal').modal('hide');
+});

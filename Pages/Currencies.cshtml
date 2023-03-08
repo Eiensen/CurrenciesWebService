@@ -28,7 +28,7 @@
     <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center  gy-10">
             <li class="page-item @(Model.ShowPrevious ? "" : "disabled")">
-                <a asp-page="/Currencies" asp-route-currentpage="@(Model.CurrentPage -1)" class="page-link">Previous</a>
+                <a asp-page="/Currencies" asp-route-currentpage="@(Model.CurrentPage -1)" class="page-link">Предыдущая</a>
             </li>
 
             @for (var i = 1; i <= Model.TotalPages; i++)
@@ -39,7 +39,7 @@
             }
 
             <li class="page-item @(Model.ShowNext ? " " : " disabled")">
-                <a asp-page="/Currencies" asp-route-currentpage="@(Model.CurrentPage + 1)" class="page-link">Next</a>
+                <a asp-page="/Currencies" asp-route-currentpage="@(Model.CurrentPage + 1)" class="page-link">Следующая</a>
             </li>
         </ul>
     </nav>
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" id="modalClose">Close</button>
             </div>
         </div>
     </div>
